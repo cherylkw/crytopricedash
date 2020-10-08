@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-https://youtu.be/KksTeFMq53A
+https://obscure-island-61654.herokuapp.com/
 
 ## App architecture
 
@@ -23,11 +23,18 @@ API request and JSON response : CoinGecko
 -  Open the localhost http://localhost:8000/ to run the app
 -  Install CoinGecko API : npm install coingecko-api
 
-## Deploy on Heroku
+## Deploy on Heroku using Heroku-cli
 
 1. Create a Heroku account
 2. Install Heroku-cli
 3. Install Git
+4. Create repository in Git
+    - git init
+    - git add -A
+    - git commit -m "init"
+5. Login in Heroku : heroku login
+6. Create App : heroku create
+7. Upload project to heroku : git push heroku master
 
 ## Author : Cheryl Kwong  Email : cherylkwong@gmail.com
 ## Project developed by : Node.js, Next.js, CoinGecko, Heroku, Bootstrap
