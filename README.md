@@ -1,30 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cryptocurrency Dashboard
 
-## Getting Started
+## Welcome to Crypto Price Dashboard
 
-First, run the development server:
+**Crypto Price Dashboard** is a simple dashboard to show crytocurrency price today. The prices are using API GET request to retrieve from CoinGecko so it is the most update at the moment you visit the page.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://youtu.be/KksTeFMq53A
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## App architecture
 
-## Learn More
+UI : Bootstrap
+Backend : Node.js, Next.js
+API request and JSON response : CoinGecko
 
-To learn more about Next.js, take a look at the following resources:
+## Setting up the development environment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-  Install Node.js
+-  Install Next.js : npm install -g create-next-app
+-  Config App folder : create-next-app <foldername>
+-  Start local server : npm run dev
+-  Open the localhost http://localhost:8000/ to run the app
+-  Install CoinGecko API : npm install coingecko-api
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deploy on Heroku
 
-## Deploy on Vercel
+1. Create a Heroku account
+2. Install Heroku-cli
+3. Install Git
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Author : Cheryl Kwong  Email : cherylkwong@gmail.com
+## Project developed by : Node.js, Next.js, CoinGecko, Heroku, Bootstrap
