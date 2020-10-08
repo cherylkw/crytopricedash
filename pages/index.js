@@ -24,7 +24,9 @@ export default function Home(props) {
         <title>Cryto Price Dashboard</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <br></br>
       <h1>Cryto Price Dashboard</h1>
+      <div class="container shadow-sm p-3 mb-5 bg-white rounded">
       <table className='table'>
         <thead>
           <tr>
@@ -59,6 +61,7 @@ export default function Home(props) {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   )
 }

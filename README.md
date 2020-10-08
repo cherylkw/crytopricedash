@@ -22,6 +22,7 @@ API request and JSON response : CoinGecko
 -  Start local server : npm run dev
 -  Open the localhost http://localhost:8000/ to run the app
 -  Install CoinGecko API : npm install coingecko-api
+-  Install bootstrap : npm install bootstrap
 
 ## Deploy on Heroku using Heroku-cli
 
